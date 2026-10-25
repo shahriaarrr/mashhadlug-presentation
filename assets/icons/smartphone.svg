@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <defs><linearGradient id="phone" x1="16" y1="7" x2="49" y2="57" gradientUnits="userSpaceOnUse"><stop stop-color="#A5E9D6"/><stop offset="1" stop-color="#55B9AB"/></linearGradient></defs>
+  <rect x="16" y="5" width="32" height="54" rx="8" fill="url(#phone)" stroke="#E0FFF3" stroke-width="2"/>
+  <rect x="20" y="12" width="24" height="37" rx="3" fill="#17363C"/>
+  <path d="M28 9h8" stroke="#F5D28D" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="32" cy="54" r="2" fill="#FFF0D1"/>
+  <path d="m26 34 4 4 9-10" stroke="#78DEC4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

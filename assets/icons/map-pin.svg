@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <defs><linearGradient id="pin" x1="14" y1="6" x2="48" y2="54" gradientUnits="userSpaceOnUse"><stop stop-color="#FF9B82"/><stop offset="1" stop-color="#E75F65"/></linearGradient></defs>
+  <path d="M32 59S10 39 10 25a22 22 0 1 1 44 0C54 39 32 59 32 59Z" fill="url(#pin)" stroke="#FFD1B9" stroke-width="2"/>
+  <circle cx="32" cy="25" r="9" fill="#FFF0D0"/>
+  <circle cx="32" cy="25" r="4" fill="#258F8E"/>
+</svg>

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#07151a" />
+    <title>مشهد مترو — ارائه</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="glow" id="gl" aria-hidden="true"></div>
+
+    <main aria-label="ارائهٔ مشهد مترو">
+      <section class="sl">
+        <div class="c w">
+          <div class="orb">
+            <div class="sq"></div>
+            <div class="sq r"></div>
+            <img src="assets/hi-presentation-mark.png" alt="لوگو" />
+          </div>
+          <h1>مشهد <span class="g">مترو</span></h1>
+          <div class="sal">در شهر امام رضا (ع)</div>
+        </div>
+      </section>
+
+      <section class="sl creator-slide">
+        <div class="c">
+          <div class="k">من کی‌ام؟</div>
+          <h2 class="creator-name">شهریار <span class="g">قاسم‌پور</span></h2>
+          <p class="tx">سلام! من شهریارم و ساکن مشهدم. بیشتر با <b>Flutter</b>، <b>Go</b> و <b>Python</b> کار می‌کنم و عاشق ساختن ابزارهایی‌ام که واقعاً به درد آدم‌ها بخورن. به <b>نرم‌افزار آزاد</b> علاقه دارم، درباره‌ش می‌نویسم و توی کانال یوتیوبم هم محتوا می‌ذارم. «مشهد مترو» هم از همین علاقه و دغدغه‌های زندگی توی این شهر شروع شد.</p>
+          <div class="chips" aria-hidden="true">
+            <span class="tech-chip"><img src="assets/tech/flutter.svg" alt="" />Flutter</span>
+            <span class="tech-chip"><img src="assets/tech/go.svg" alt="" />Go</span>
+            <span class="tech-chip"><img src="assets/tech/python.svg" alt="" />Python</span>
+            <span class="tech-chip"><img src="assets/tech/django.svg" alt="" />Django</span>
+            <span class="tech-chip"><img src="assets/tech/github.svg" alt="" />Open Source</span>
+          </div>
+        </div>
+        <div class="v creator-visual">
+          <div class="creator-stack">
+            <div class="orb avatar">
+              <div class="sq"></div>
+              <div class="sq r"></div>
+              <img src="assets/me/SH.png" alt="نشان شخصی شهریار قاسم‌پور" />
+            </div>
+            <div class="pn creator-qr depth-2">
+              <img class="creator-image" src="assets/me/youtube.png" alt="کد QR برای بازکردن کانال یوتیوب شهریار قاسم‌پور" />
+              <div class="creator-qr-caption">
+                <svg class="youtube-mark" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.2 3.6-6.2 3.6Z" />
+                </svg>
+                <span><b>کانال یوتیوب</b><small>برای بازدید، اسکن کنید</small></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sl">
+        <div class="v" aria-hidden="true">
+          <div class="sc">
+            <div class="pn depth-1"><img class="visual-icon" src="assets/icons/suitcase.svg" alt="" width="64" height="64" /><b>زائران</b></div>
+            <div class="pn depth-2"><img class="visual-icon" src="assets/icons/train.svg" alt="" width="64" height="64" /><b>مترو</b></div>
+            <div class="pn depth-3"><img class="visual-icon" src="assets/icons/help.svg" alt="" width="64" height="64" /><b>اطلاعات پراکنده</b></div>
+          </div>
+        </div>
+        <div class="c">
+          <div class="k">شکل‌گیری ایده</div>
+          <h2>مشکل: <span class="g">اطلاعات دقیق، دم دست نبود</span></h2>
+          <p class="tx">مشهد دومین شهر بزرگ ایران و مقصد میلیون‌ها زائر در هر ساله. مترو هم بخش مهمی از ناوگان حمل‌ونقل شهری مشهده و نقش پررنگی توی رفت‌وآمدهای روزمرهٔ شهر، به‌خصوص رفت‌وآمد به حرم مطهر داره. با این حال، پیدا کردن اطلاعات دقیق و قابل‌اعتماد از ایستگاه‌ها، آدرس‌ها و امکاناتشون کار ساده‌ای نبود. به <b>اپلیکیشنی ساده، رایگان و آفلاین</b> نیاز داشتیم که هم ساکنان و هم زائرهایی که برای اولین بار به شهر میان بتونن راحت ازش استفاده کنن.</p>
+        </div>
+      </section>
+
+      <section class="sl">
+        <div class="c w">
+          <div class="k">یک سوال</div>
+          <h1 class="q">قدم اول برای ساخت این پروژه چیه؟</h1>
+        </div>
+      </section>
+
+      <section class="sl">
+        <div class="v vd">
+          <pre id="js">{
+  "name": "Bab Al-javad",
+  "translations": { "fa": "باب الجواد(ع)" },
+  "lines": [3],
+  "longitude": "59.611194298074224",
+  "latitude": "36.285214955489636",
+  "address": "میدان بیت المقدس-بلوار شهید اندرزگو-رو به روی درب باب الجواد(ع) حرم مطهر",
+  "colors": ["#FA9702"],
+  "wc": true, "atm": true, "elevator": true,
+  "prayerRoom": true, "freeWifi": false,
+  "NearHolyshrine": true,
+  "relations": ["Shohada"]
+}</pre>
+        </div>
+        <div class="c">
+          <div class="k">قدم اول</div>
+          <h2>جمع‌آوری <span class="g">داده</span></h2>
+          <p class="tx">اولین قدم، ساختن یک مجموعه‌داده باز بود. هر ایستگاه یک رکورد <bdi>JSON</bdi> است با نام فارسی و انگلیسی، خط و رنگ، آدرس کامل، امکاناتی مثل سرویس بهداشتی، خودپرداز، آسانسور و نمازخانه، و فهرست ایستگاه‌های همسایه که کل شبکه را به یک <b>گراف</b> تبدیل می‌کند. داده‌ها در ریپازیتوری <bdi>mashhad-metro-data</bdi> با لایسنس <bdi>ODbL</bdi> منتشر شده‌اند و یک نمایشگر تعاملی هم برای دیدن گراف ایستگاه‌ها دارند.</p>
+        </div>
+      </section>
+
+      <section class="sl">
+        <div class="v" aria-hidden="true">
+          <div class="sc">
+            <div class="pn depth-1"><img class="visual-icon" src="assets/icons/palette.svg" alt="" width="64" height="64" /><b>رابط ساده</b></div>
+            <div class="pn depth-2"><img class="visual-icon" src="assets/icons/moon-stars.svg" alt="" width="64" height="64" /><b>تاریک و روشن</b></div>
+            <div class="pn depth-3"><img class="visual-icon" src="assets/icons/accessibility.svg" alt="" width="64" height="64" /><b>دسترس‌پذیر</b></div>
+          </div>
+        </div>
+        <div class="c">
+          <div class="k">طراحی اپلیکیشن</div>
+          <h2>ساده و <span class="g">قابل‌فهم</span></h2>
+          <p class="tx">رابط کاربری اپ با الهام از طراحی اپلیکیشن مترو تهران ساخته شد تا برای همه آشنا و راحت باشد. <b>حالت تاریک و روشن</b>، چیدمان تمیز و توجه به <b>دسترس‌پذیری</b> برای کاربرانی با هر سن و توانایی، در کنار یک قول ساده: بدون هیچ تبلیغ و ردیابی.</p>
+        </div>
+      </section>
+
+      <section class="sl">
+        <div class="v" aria-hidden="true">
+          <div class="sc">
+            <div class="ln line-1">
+              <div class="st station-1"></div>
+              <div class="st station-2"></div>
+              <div class="st station-3"></div>
+            </div>
+            <div class="ln line-2">
+              <div class="st station-4"></div>
+              <div class="st station-5"></div>
+              <div class="st station-6"></div>
+            </div>
+            <div class="ln line-3">
+              <div class="st station-7"></div>
+              <div class="st station-8"></div>
+              <div class="st station-9"></div>
+            </div>
+          </div>
+        </div>
+        <div class="c">
+          <div class="k">ساخت بخش‌ها</div>
+          <h2>امکانات <span class="g">اپ</span></h2>
+          <p class="tx">با <b>نقشهٔ تعاملی</b> که روی OpenStreetMap ساخته شده، همهٔ ایستگاه‌ها را می‌بینید و برای هرکدام آدرس، موقعیت دقیق و اطلاعات کامل را می‌خوانید. می‌توانید ایستگاه‌های دارای آسانسور، سرویس بهداشتی، وای‌فای یا پارکینگ را پیدا کنید و خط‌ها و ایستگاه‌های تقاطعی را مرور کنید؛ همهٔ این‌ها <b>کاملاً آفلاین</b> و با Flutter و Riverpod پیاده‌سازی شده است.</p>
+        </div>
+      </section>
+
+      <section class="sl">
+        <div class="v" aria-hidden="true">
+          <div class="orb large-mark">
+            <div class="rg"></div>
+            <div class="rg r"></div>
+            <img src="assets/hi-presentation-mark.png" alt="" />
+          </div>
+        </div>
+        <div class="c">
+          <div class="k">طراحی لوگو</div>
+          <h2>هویت <span class="g">اپلیکیشن</span></h2>
+          <p class="tx">آیکون اپلیکیشن را <b>سجاد خیابانی</b> طراحی کرده است؛ نشانی ساده، مدرن و قابل‌تشخیص که روح مشهد مترو را در یک نگاه نشان می‌دهد.</p>
+        </div>
+      </section>
+
+      <section class="sl platform-slide">
+        <div class="c w wide">
+          <div class="k">پلتفرم‌ها</div>
+          <h2>مشهد مترو برای <span class="g">این سیستم‌ها</span> آماده است</h2>
+          <div class="os-grid" aria-label="سیستم‌عامل‌های پشتیبانی‌شده">
+            <article class="os-card" style="--c:#3DDC84">
+              <div class="os-icon"><img src="assets/os/android.svg" alt="" /></div>
+              <b dir="ltr">Android</b>
+            </article>
+            <article class="os-card" style="--c:#F4F3ED">
+              <div class="os-icon"><img src="assets/os/apple.svg" alt="" /></div>
+              <b dir="ltr">iOS</b>
+            </article>
+            <article class="os-card" style="--c:#FCC624">
+              <div class="os-icon"><img src="assets/os/linux.svg" alt="" /></div>
+              <b dir="ltr">Linux</b>
+            </article>
+          </div>
+          <div class="os-base"><img src="assets/tech/flutter.svg" alt="" /><span>یک کدبیس، با <bdi>Flutter</bdi></span></div>
+        </div>
+      </section>
+
+      <section class="sl install-slide">
+        <div class="c w install-content">
+          <div class="k">دریافت اپلیکیشن</div>
+          <h2>اسکن کنید و <span class="g">نصب کنید</span></h2>
+          <p class="install-intro">فروشگاه مناسب دستگاهتان را انتخاب کنید.</p>
+          <div class="store-grid" aria-label="فروشگاه‌های دریافت اپلیکیشن">
+            <article class="store-card">
+              <div class="store-qr-frame">
+                <img
+                  class="store-qr"
+                  src="assets/stores/cafe-bazzar.png"
+                  alt="کد QR دریافت اپلیکیشن از کافه‌بازار"
+                  width="810"
+                  height="810"
+                />
+              </div>
+              <div class="store-brand">
+                <img class="store-logo store-logo--bazaar" src="assets/stores/cafe-bazaar.svg" alt="لوگوی کافه‌بازار" />
+                <h3>کافه‌بازار</h3>
+                <p>نسخهٔ اندروید</p>
+              </div>
+            </article>
+            <article class="store-card">
+              <div class="store-qr-frame">
+                <img
+                  class="store-qr"
+                  src="assets/stores/myket.png"
+                  alt="کد QR دریافت اپلیکیشن از مایکت"
+                  width="810"
+                  height="810"
+                />
+              </div>
+              <div class="store-brand">
+                <img class="store-logo store-logo--myket" src="assets/stores/myket.svg" alt="لوگوی مایکت" />
+                <h3>مایکت</h3>
+                <p>نسخهٔ اندروید</p>
+              </div>
+            </article>
+            <article class="store-card">
+              <div class="store-qr-frame">
+                <img
+                  class="store-qr"
+                  src="assets/stores/anardoni.png"
+                  alt="کد QR دریافت اپلیکیشن از اناردونی"
+                  width="810"
+                  height="810"
+                />
+              </div>
+              <div class="store-brand">
+                <img class="store-logo store-logo--anardoni" src="assets/stores/anardoni.svg" alt="لوگوی اناردونی" />
+                <h3>اناردونی</h3>
+                <p>نسخهٔ iOS</p>
+              </div>
+            </article>
+          </div>
+          <p class="install-hint">دوربین گوشی را روی کد فروشگاه بگیرید.</p>
+        </div>
+      </section>
+
+      <section class="sl">
+        <div class="c w wide">
+          <div class="k">آینده</div>
+          <h2>برنامه <span class="g">ما</span></h2>
+          <p class="tx" style="margin-inline:auto;text-align:center">در آینده، انتشار <b>نسخهٔ ۱.۰</b> اپلیکیشن با امکانات زیر:</p>
+          <div class="row">
+            <div class="card">
+              <div class="ic" aria-hidden="true"><img src="assets/icons/palette.svg" alt="" width="40" height="40" /></div>
+              <b>بروزرسانی کامل UI/UX اپلیکیشن</b>
+            </div>
+            <div class="card">
+              <div class="ic" aria-hidden="true"><img src="assets/icons/compass.svg" alt="" width="40" height="40" /></div>
+              <b>امکان مسیریابی</b>
+            </div>
+            <div class="card">
+              <div class="ic" aria-hidden="true"><img src="assets/icons/people.svg" alt="" width="40" height="40" /></div>
+              <b>امکان ثبت‌نام و ساخت پروفایل کاربری</b>
+            </div>
+            <div class="card">
+              <div class="ic" aria-hidden="true"><img src="assets/icons/clock.svg" alt="" width="40" height="40" /></div>
+              <b>زمان رسیدن قطار به هر ایستگاه</b>
+            </div>
+            <div class="card">
+              <div class="ic" aria-hidden="true"><img src="assets/icons/train.svg" alt="" width="40" height="40" /></div>
+              <b>بروزرسانی لحظه‌ای داده‌های قطار شهری</b>
+            </div>
+            <div class="card">
+              <div class="ic" aria-hidden="true"><img src="assets/icons/bug.svg" alt="" width="40" height="40" /></div>
+              <b>ثبت گزارش از طریق اپلیکیشن</b>
+            </div>
+            <div class="card">
+              <div class="ic" aria-hidden="true"><img src="assets/icons/computer.svg" alt="" width="40" height="40" /></div>
+              <b>انتشار نسخهٔ ویندوزی</b>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sl">
+        <div class="c w wide">
+          <div class="k">مشارکت</div>
+          <h2>چطور <span class="g">کمک کنیم؟</span></h2>
+          <div class="row contrib-row">
+            <div class="card contrib-card">
+              <span class="contrib-n" aria-hidden="true">۰۱</span>
+              <div class="ic" aria-hidden="true"><img src="assets/icons/computer.svg" alt="" width="40" height="40" /></div>
+              <b>توسعه‌دهنده</b>
+            </div>
+            <div class="card contrib-card">
+              <span class="contrib-n" aria-hidden="true">۰۲</span>
+              <div class="ic" aria-hidden="true"><img src="assets/icons/heart-coin.svg" alt="" width="40" height="40" /></div>
+              <b>حمایت مالی و سرمایه‌گذاری</b>
+            </div>
+            <div class="card contrib-card">
+              <span class="contrib-n" aria-hidden="true">۰۳</span>
+              <div class="ic" aria-hidden="true"><img src="assets/icons/people.svg" alt="" width="40" height="40" /></div>
+              <b>مسئولیت اجتماعی شهروندان</b>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sl">
+        <div class="c w wide">
+          <div class="k">مشارکت · ۱ از ۳</div>
+          <h2><span class="g">توسعه‌دهنده</span></h2>
+          <div class="tech-grid" aria-label="ابزارها و فناوری‌ها">
+            <div class="tech"><img src="assets/tech/flutter.svg" alt="Flutter" /><small dir="ltr">Flutter</small></div>
+            <div class="tech"><img src="assets/tech/dart.svg" alt="Dart" /><small dir="ltr">Dart</small></div>
+            <div class="tech"><img src="assets/tech/openstreetmap.svg" alt="OpenStreetMap" /><small dir="ltr">OpenStreetMap</small></div>
+            <div class="tech"><img src="assets/tech/git.svg" alt="Git" /><small dir="ltr">Git</small></div>
+            <div class="tech"><img src="assets/tech/javascript.svg" alt="JavaScript" /><small dir="ltr">JavaScript</small></div>
+            <div class="tech"><img src="assets/tech/html5.svg" alt="HTML5" /><small dir="ltr">HTML5</small></div>
+            <div class="tech"><img src="assets/tech/css3.svg" alt="CSS3" /><small dir="ltr">CSS3</small></div>
+            <div class="tech"><img src="assets/tech/github.svg" alt="GitHub" /><small dir="ltr">GitHub</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sl donate-slide">
+        <div class="v donate-visual" aria-hidden="true">
+          <svg class="donate-art" viewBox="0 0 400 400" fill="none">
+            <defs>
+              <linearGradient id="dg-heart" x1="120" y1="110" x2="290" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#F6D58E"/><stop offset="1" stop-color="#E78C75"/></linearGradient>
+              <linearGradient id="dg-coin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFE9A8"/><stop offset="1" stop-color="#E5A93B"/></linearGradient>
+              <radialGradient id="dg-halo" cx="50%" cy="50%" r="50%"><stop stop-color="#56D7C0" stop-opacity=".28"/><stop offset="1" stop-color="#56D7C0" stop-opacity="0"/></radialGradient>
+            </defs>
+            <circle cx="200" cy="200" r="190" fill="url(#dg-halo)"/>
+            <circle class="d-orbit" cx="200" cy="200" r="150" stroke="#EFBD67" stroke-opacity=".35" stroke-dasharray="3 9" stroke-linecap="round"/>
+            <g class="d-heart">
+              <path d="M200 300C128 248 104 210 104 172a52 52 0 0 1 96-24 52 52 0 0 1 96 24c0 38-24 76-96 128Z" fill="url(#dg-heart)" stroke="#FFE9C7" stroke-width="5" stroke-linejoin="round"/>
+              <path d="M142 150c6-12 18-18 30-16" stroke="#fff" stroke-opacity=".55" stroke-width="7" stroke-linecap="round"/>
+            </g>
+            <g class="d-coin c1"><circle cx="318" cy="96" r="30" fill="url(#dg-coin)" stroke="#FFF1C7" stroke-width="4"/><circle cx="318" cy="96" r="20" stroke="#B9791B" stroke-opacity=".5" stroke-width="3"/><path d="M318 86v20m-7-14h14" stroke="#9A6412" stroke-width="4" stroke-linecap="round"/></g>
+            <g class="d-coin c2"><circle cx="78" cy="262" r="24" fill="url(#dg-coin)" stroke="#FFF1C7" stroke-width="4"/><circle cx="78" cy="262" r="15" stroke="#B9791B" stroke-opacity=".5" stroke-width="3"/></g>
+            <g class="d-coin c3"><circle cx="302" cy="322" r="18" fill="url(#dg-coin)" stroke="#FFF1C7" stroke-width="3"/></g>
+            <g class="d-cup">
+              <path d="M70 76h72v34a36 36 0 0 1-36 36 36 36 0 0 1-36-36V76Z" fill="#15333A" stroke="#56D7C0" stroke-width="4" stroke-linejoin="round"/>
+              <path d="M142 88h10a14 14 0 0 1 0 28h-12" stroke="#56D7C0" stroke-width="4" stroke-linecap="round"/>
+              <path class="steam s1" d="M90 62c-6-8 6-12 0-22" stroke="#B2C0BD" stroke-width="3.5" stroke-linecap="round"/>
+              <path class="steam s2" d="M110 62c-6-8 6-12 0-22" stroke="#B2C0BD" stroke-width="3.5" stroke-linecap="round"/>
+              <path class="steam s3" d="M130 62c-6-8 6-12 0-22" stroke="#B2C0BD" stroke-width="3.5" stroke-linecap="round"/>
+            </g>
+          </svg>
+        </div>
+        <div class="c">
+          <div class="k">مشارکت · ۲ از ۳</div>
+          <h2>حمایت <span class="g">مالی</span></h2>
+          <p class="tx">اگر مشهد مترو برایتان مفید بود، با یک دونیت کوچک به ادامهٔ توسعه و نگهداری آن کمک کنید.</p>
+          <div class="qr-pair">
+            <figure class="qr-slot">
+              <div class="qr-frame">
+                <img class="qr-img" src="assets/donate/qr-1.svg" alt="کد QR حمایت مالی از طریق دارمت" />
+              </div>
+              <img class="qr-logo" src="assets/donate/daramet.svg" alt="لوگوی دارمت" onerror="this.remove()" />
+              <figcaption dir="ltr">daramet.com/shahriaarrr</figcaption>
+            </figure>
+            <figure class="qr-slot">
+              <div class="qr-frame">
+                <img class="qr-img" src="assets/donate/qr-2.svg" alt="کد QR حمایت مالی از طریق سودو" />
+              </div>
+              <img class="qr-logo" src="assets/donate/sudoshz.svg" alt="لوگوی سودو" onerror="this.remove()" />
+              <figcaption dir="ltr">donate.sudoshz.ir/u/shahriaarrr</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="sl invest-slide">
+        <div class="v invest-visual" aria-hidden="true">
+          <svg class="invest-art" viewBox="0 0 400 400" fill="none">
+            <defs>
+              <linearGradient id="iv-bar" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#39AFA7"/><stop offset="1" stop-color="#84E7D2"/></linearGradient>
+              <linearGradient id="iv-gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFE9A8"/><stop offset="1" stop-color="#E5A93B"/></linearGradient>
+              <radialGradient id="iv-halo" cx="50%" cy="50%" r="50%"><stop stop-color="#EFBD67" stop-opacity=".2"/><stop offset="1" stop-color="#EFBD67" stop-opacity="0"/></radialGradient>
+            </defs>
+            <circle cx="200" cy="210" r="190" fill="url(#iv-halo)"/>
+            <path d="M52 330h300" stroke="#B2C0BD" stroke-opacity=".35" stroke-width="3" stroke-linecap="round"/>
+            <rect class="i-bar b1" x="74" y="250" width="46" height="80" rx="10" fill="url(#iv-bar)"/>
+            <rect class="i-bar b2" x="140" y="205" width="46" height="125" rx="10" fill="url(#iv-bar)"/>
+            <rect class="i-bar b3" x="206" y="160" width="46" height="170" rx="10" fill="url(#iv-bar)"/>
+            <rect class="i-bar b4" x="272" y="105" width="46" height="225" rx="10" fill="url(#iv-bar)"/>
+            <path class="i-line" d="M70 228 150 180 214 138 300 74" stroke="#EFBD67" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+            <path class="i-arrow" d="m272 70 30 2-4 30" stroke="#EFBD67" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <g class="d-coin c1"><circle cx="336" cy="190" r="26" fill="url(#iv-gold)" stroke="#FFF1C7" stroke-width="4"/><circle cx="336" cy="190" r="16" stroke="#B9791B" stroke-opacity=".5" stroke-width="3"/></g>
+            <g class="d-coin c2"><circle cx="58" cy="150" r="20" fill="url(#iv-gold)" stroke="#FFF1C7" stroke-width="3"/></g>
+          </svg>
+        </div>
+        <div class="c">
+          <div class="k">مشارکت · ۲ از ۳</div>
+          <h2><span class="g">سرمایه‌گذاری</span></h2>
+          <p class="tx">مشهد مترو یک پروژهٔ رایگان و متن‌باز است و مسیر رشد روشنی دارد: مسیریابی هوشمند، اطلاعات لحظه‌ای و انتشار روی پلتفرم‌های بیشتر. اگر سازمان یا شرکتی علاقه‌مند است در این مسیر <b>سرمایه‌گذاری یا همکاری</b> کند، خوشحال می‌شویم گفتگو کنیم.</p>
+          <div class="chips"><span class="chip" dir="ltr">shahriaarrr@gmail.com</span></div>
+        </div>
+      </section>
+
+      <section class="sl social-slide">
+        <div class="v issue-visual" aria-hidden="true">
+          <div class="issue-mock">
+            <div class="issue-bar" dir="ltr"><i></i><i></i><i></i><span>shahriaarrr / mashhad-metro-data · Issues</span></div>
+            <div class="issue-head">
+              <span class="issue-open"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" stroke="currentColor" stroke-width="1.6" fill="none"/><circle cx="8" cy="8" r="1.5" fill="currentColor"/></svg>Open</span>
+              <b>آدرس ایستگاه باب‌الجواد اشتباه است</b>
+            </div>
+            <div class="issue-body">
+              <span class="ln-a"></span><span class="ln-b"></span><span class="ln-c"></span>
+            </div>
+            <div class="issue-tags"><span>data</span><span>station</span><span>fix</span></div>
+            <div class="issue-btn">New issue</div>
+          </div>
+        </div>
+        <div class="c">
+          <div class="k">مشارکت · ۳ از ۳</div>
+          <h2>مسئولیت اجتماعی <span class="g">شهروندان</span></h2>
+          <p class="tx">اگر اطلاعات یک ایستگاه اشتباه یا قدیمی بود، آن را در ریپازیتوری <bdi>mashhad-metro-data</bdi> گزارش دهید، نه در ریپازیتوری خود اپ؛ تا داده برای همهٔ برنامه‌هایی که از آن استفاده می‌کنند درست بماند.</p>
+          <ol class="steps">
+            <li class="step"><span class="step-n">۱</span><span>تب <bdi>Issues</bdi> را باز کنید و روی <bdi>New issue</bdi> بزنید.</span></li>
+            <li class="step"><span class="step-n">۲</span><span>نام ایستگاه، فیلد اشتباه و مقدار درست را بنویسید و اگر منبعی دارید ضمیمه کنید.</span></li>
+            <li class="step"><span class="step-n">۳</span><span>یا مستقیم در <bdi>stations.json</bdi> اصلاح کنید و <bdi>Pull Request</bdi> بفرستید.</span></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="sl">
+        <div class="c w wide">
+          <div class="orb s">
+            <img src="assets/hi-presentation-mark.png" alt="" />
+          </div>
+          <div class="k">پایان ارائه</div>
+          <h1>ممنون از <span class="g">همراهی شما</span></h1>
+          <div class="row">
+            <span class="chip" dir="ltr">github.com/shahriaarrr/mashhad-metro</span>
+            <span class="chip" dir="ltr">github.com/shahriaarrr/mashhad-metro-data</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="sl qa-slide">
+        <div class="qa-float" aria-hidden="true"><i>؟</i><i>?</i><i>؟</i><i>?</i><i>؟</i><i>?</i></div>
+        <div class="c w wide">
+          <div class="orb">
+            <div class="sq"></div>
+            <div class="sq r"></div>
+            <img src="assets/hi-presentation-mark.png" alt="لوگوی مشهد مترو" />
+          </div>
+          <h1>بخش <span class="g">پرسش و پاسخ</span></h1>
+        </div>
+      </section>
+    </main>
+
+    <div class="deck-controls" aria-label="کنترل ارائه">
+      <button class="control-button" id="previous" type="button" aria-label="اسلاید قبلی">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="m14 5-7 7 7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <output class="slide-count" id="slide-count" aria-live="polite" dir="ltr">01 / 18</output>
+      <nav class="nav" id="nv" aria-label="انتخاب اسلاید"></nav>
+      <button class="control-button" id="next" type="button" aria-label="اسلاید بعدی">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="m10 5 7 7-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <button class="control-button" id="fullscreen" type="button" aria-label="نمایش تمام‌صفحه" aria-pressed="false" title="نمایش تمام‌صفحه (F)">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M8 3H3v5m0-5 6 6m7-6h5v5m0-5-6 6M3 16v5h5m-5 0 6-6m7 6h5v-5m0 5-6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <span id="fullscreen-status" class="sr-only" role="status" aria-live="polite"></span>
+    </div>
+
+    <script src="presentation.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <defs><linearGradient id="bubble" x1="10" y1="8" x2="52" y2="55" gradientUnits="userSpaceOnUse"><stop stop-color="#FFE29A"/><stop offset="1" stop-color="#E9A957"/></linearGradient></defs>
+  <path d="M32 7a24 24 0 0 0-14 43l-3 8 12-4a24 24 0 1 0 5-47Z" fill="url(#bubble)" stroke="#FFF0C6" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M25 25a7 7 0 1 1 12 5c-3 3-5 4-5 8" stroke="#315258" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="32" cy="46" r="2.5" fill="#315258"/>
+</svg>
